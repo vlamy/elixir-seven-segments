@@ -1,0 +1,35 @@
+{
+  "name": "seven_segment",
+  "version": "1.0.0",
+  "description": "lcd like display CLI",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^11.11.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "npm": "^6.9.0",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "typescript": "^3.3.4000",
+    "typing": "^0.1.9"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts",
+    "test": "npm run build && mocha -r ts-node/register test/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/vlamy/elixir-seven-segment"
+  },
+  "keywords": [
+    "node",
+    "TS",
+    "lcd"
+  ],
+  "author": "willy Malvault",
+  "license": "MIT"
+}

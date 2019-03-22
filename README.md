@@ -1,2 +1,2 @@
-# elixir-seven-segments
-seven segments kata in Elixir
+# seven-segments
+Seven segment exercise in Node / TS and Elixir
