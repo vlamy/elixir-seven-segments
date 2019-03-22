@@ -2,7 +2,7 @@
   "name": "seven_segment",
   "version": "1.0.0",
   "description": "lcd like display CLI",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "dependencies": {
     "@types/node": "^11.11.4",
     "chai": "^4.2.0",
