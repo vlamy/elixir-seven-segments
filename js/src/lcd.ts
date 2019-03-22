@@ -45,7 +45,7 @@ function extractLine(charList: Array<string>, property: string): string {
  * @param input - The classic string to format to LCD display
  * @returns A LCD formated string
  */
-export function buildLCDString(input: string): string {
+export function buildLCDString(input: string = ''): string {
   const sanitizedList = sanitize(input);
 
   // Half functionnal style :)

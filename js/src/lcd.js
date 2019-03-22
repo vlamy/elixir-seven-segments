@@ -44,6 +44,7 @@ function extractLine(charList, property) {
  * @returns A LCD formated string
  */
 function buildLCDString(input) {
+    if (input === void 0) { input = ''; }
     var sanitizedList = sanitize(input);
     // Half functionnal style :)
     // Actually, with currification we could have chained the call of sanitize
